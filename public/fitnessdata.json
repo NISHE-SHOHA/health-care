@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Hiit Rush",
+        "description": "This place is fun and challenging and really convenient as you can go to different classes, rather than having to commit to a specific day and time. The teachers are really friendly and they all have their own style of teaching.",
+        "img": "https://image.freepik.com/free-photo/young-fitness-man-studio_7502-5004.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cardio",
+        "description": "This place is fun and challenging and really convenient as you can go to different classes, rather than having to commit to a specific day and time. The teachers are really friendly and they all have their own style of teaching.",
+        "img": "https://image.freepik.com/free-photo/happy-smiling-woman-training-abs-gym_7502-8781.jpg"
+    },
+    {
+        "id": 3,
+        "name": "PT & Yoga",
+        "description": "This place is fun and challenging and really convenient as you can go to different classes, rather than having to commit to a specific day and time. The teachers are really friendly and they all have their own style of teaching.",
+        "img": "https://image.freepik.com/free-photo/fitnesswoman-training-abs-using-small-ball-rain_7502-7073.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Mind & Body",
+        "description": "This place is fun and challenging and really convenient as you can go to different classes, rather than having to commit to a specific day and time. The teachers are really friendly and they all have their own style of teaching.",
+        "img": "https://image.freepik.com/free-photo/muscular-young-gentleman-pumping-up-biceps_7502-9050.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sprint",
+        "description": "This place is fun and challenging and really convenient as you can go to different classes, rather than having to commit to a specific day and time. The teachers are really friendly and they all have their own style of teaching.",
+        "img": "https://image.freepik.com/free-photo/smiling-woman-doing-special-exercise-with-trx-system_7502-8772.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Pro Cycling",
+        "description": "This place is fun and challenging and really convenient as you can go to different classes, rather than having to commit to a specific day and time. The teachers are really friendly and they all have their own style of teaching.",
+        "img": "https://image.freepik.com/free-photo/sportswoman-training-abs-with-ball-rain_7502-7072.jpg"
+    }
+]
