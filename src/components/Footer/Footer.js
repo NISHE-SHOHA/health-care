@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-5">
               <div className="left-container text-start">
-                <h1>Fitness Club</h1>
+                <h3>Fitness Club</h3>
                 <div className="icons-container d-flex text-center">
                   <div className="icon">
                     <AiFillFacebook />

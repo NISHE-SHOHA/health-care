@@ -46,7 +46,7 @@ import useAuth from '../../hooks/useAuth';
     return (
         <div id="login" className="d-flex justify-content-center align-items-center fw-bold">
             <div>
-              <h2 className="mt-2">Please Register</h2>
+              <h2 className="mt-2">Please Login</h2>
               {loginUser?.email && <h3>Wellcome to {loginUser.email}</h3>}
             <form onSubmit={handleSubmit}>
                <div>
@@ -67,7 +67,7 @@ import useAuth from '../../hooks/useAuth';
                </div>
                <div>
                <button
-                className="btn btn-primary mt-3 mb-2 border border-danger"
+                className="btn btn-primary mt-3 mb-2"
                 type="submit" >Submit</button>
                <br/>
             </div>
@@ -77,7 +77,7 @@ import useAuth from '../../hooks/useAuth';
             <br />
             <br />
             <h2>Please Log In</h2>
-            <button onClick={handleSignIn} className="btn btn-warning mb-5 text-light fw-bold border border-primary mt-2">Google Sing In</button> 
+            <button onClick={handleSignIn} className="btn btn-warning mb-5 text-light fw-bold mt-2">Google Sing In</button> 
         </div>
         </div>      
     );

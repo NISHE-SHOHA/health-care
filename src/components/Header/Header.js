@@ -3,16 +3,17 @@ import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import { HashLink } from 'react-router-hash-link';
+import { SiOpenaigym} from 'react-icons/si';
 import './Header.css';
 
 const Header = () => {
   const {user, logOut} = useAuth();
     return (
         <>
-    <Navbar bg="warning" variant="dark" sticky="top" collapseOnSelect expand="lg">
+    <Navbar variant="dark" sticky="top" collapseOnSelect expand="lg" style={{backgroundColor: 'lightBlue'}}>
     <Container>
     <Navbar.Brand as={ HashLink }
-    to="#home" className="text-primary fw-bolder">Fitness Club</Navbar.Brand>
+    to="#home" className="text-primary fw-bolder"><SiOpenaigym /> Fitness Club</Navbar.Brand>
     <Navbar.Collapse className="justify-content-end" id="menu-info">
     <Nav.Link as={ HashLink }
     to="/home#home">Home</Nav.Link>

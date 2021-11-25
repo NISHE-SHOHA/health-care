@@ -9,7 +9,7 @@ const Trainer = ({trainer}) => {
     return (
         <div className="col-md-4 g-4 d-flex mb-5 align-items-center justify-content-center">
         <div className="">
-            <div className="card fw-bold border border-primary bg-info bg-gradient">
+            <div className="card fw-bold border border-primary bg-gradient" style={{backgroundColor: 'lightBlue'}}>
             <img src={img} className="card-img-top" alt="..."/>
             <div className="card-body">
             <h5 className="card-title fw-bold">Name: {name}</h5>
